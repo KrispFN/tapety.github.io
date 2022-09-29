@@ -35,14 +35,14 @@
 	{
 		float: left;
 		width: 7%;
-		min-height: 335px;
+		min-height: 600px;
 		padding: 10px;
 		border-radius: 4px;
 		border: 3px solid lightgray;
 	}
 	.phone
 	{
-		max-width: 100px;
+		width: 100px;
 	}
 	.btn-3
 	{
