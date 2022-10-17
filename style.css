@@ -1,0 +1,160 @@
+@media (min-width: 1200px)
+{
+	html, body 
+	{
+		background-image: url("img/Tlo.png");
+		color: #000;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	#top
+	{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	.tel
+	{
+		padding: 50px;
+		width: 200px;
+		height: 350px;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 620px)
+{
+	html, body 
+	{
+		background-image: url("img/Tlo.png");
+		color: #000;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 10px;
+	}
+	#top
+	{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	.tel
+	{
+		padding: 50px;
+		width: 130px;
+		height: 250px;
+	}
+}
+
+@media (max-width: 620px) and (min-width: 0px)
+{
+	html, body 
+	{
+		background-image: url("img/Tlo.png");
+		color: #000;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 10px;
+	}
+	#top
+	{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	.tel
+	{
+		padding: 50px;
+		width: 80px;
+		height: 150px;
+	}
+}
+
+#NAGLOWEK {
+	background-color: #888;
+	padding: 5px;
+}
+
+#MENU {
+	width: 15%;
+	float: left;
+	overflow: hidden;
+	background-color: lightgray;
+	height: 3000px;
+}
+
+#TRESC {
+	width: 85%;
+	float: left;
+	overflow: hidden;
+	background-color: #fff;
+	text-align: left;
+	height: 3000px;
+}
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	background-color: #888;
+	text-align: center;
+	font-size: 30px;
+	height: 40px;
+}
+#tapety
+{
+	color: White;
+}
+
+.btn-2
+{
+	width: 100%;
+	height: 40px;
+	border:none;
+	color: black;
+	transition: ease-out 0.3s;
+	font-size: 1rem;
+	outline: none;
+	position: relative;
+	z-index: 1;
+}
+
+.btn-2:hover
+{
+	color: black;
+	cursor: pointer;
+	color: white;
+}
+
+.btn-2:before
+{
+	transition: 0.5s all ease;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+	opacity: 0;
+	content: "";
+	background-color: gray;
+	border-radius: 0px;
+}
+
+.btn-2:hover:before
+{
+	transition: 0.5s all ease;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	z-index: -1;
+}
+#Sztapetami
+{
+	text-align: center;
+	font-size: 70px;
+}
+
